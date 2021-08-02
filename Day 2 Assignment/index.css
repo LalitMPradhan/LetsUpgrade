@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50vh;
+    background-image: url(/download.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.navigation_top{
+    text-align: right;
+    padding: 20px 30px;
+    color: rgb(46, 44, 44);
+    font-size: 30px;
+    width: 555px;
+    height: 60%;
+}
+
+.nav_name h1{
+    padding-right: 5px;
+    border-style: solid;
+    background-color: rgb(129 136 157 / 54%);
+}
+
+.navigation_bottom{
+    padding: 20px 200px;
+    color: rgb(46, 44, 44);
+    font-size: 30px;
+}
+
+.container{
+    display: block;
+    width: 60%;
+    padding: 0 20%;
+    text-align: justify;
+}
+.intro{
+    color: rgb(12, 12, 14);
+    font-size: 18px;
+}
+.intro p{
+    margin-bottom: 20px;
+    font-weight: initial;
+}
+#headline{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.light{
+    text-align: center;
+    color: rgb(105, 32, 32);
+}
+.heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.list li{
+    padding: 5px 0;
+}
+.intro img{
+    padding: 20px 0;
+}
+.card h1{
+    padding-bottom: 10px;
+}
+#road li{
+    color: rgb(14, 4, 4);
+}
+#road p{
+    color: rgb(105, 32, 32);
+}
+#road ol li{
+    font-weight: normal;
+}
+.feedback{
+    padding: 15px 0 ;
+}
+#link ul{
+    list-style: none;
+}
+#link ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+#link ul li :hover{
+    transform: scale(1.5);
+}
